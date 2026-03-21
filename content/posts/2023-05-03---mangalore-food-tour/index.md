@@ -69,7 +69,7 @@ description: "A curated guide to the best food spots in Mangalore, from seafood 
 - Machali - Squid and Prawn Ghee roast
 - Narayana
 - Thimmappa (Pomfre
-- Fish Factory (
+- Fish Factory
 - Fish land
 - Sagar Ratna
 
@@ -79,6 +79,9 @@ description: "A curated guide to the best food spots in Mangalore, from seafood 
 ## Other Links
 - [Mangalore Food Tour Twitter](https://twitter.com/hishh/status/1340958510138466305?s=46&t=fuhjTK9aXK7-njWS-VljPg)
 - [Best Sea Food in India](https://www.instagram.com/reel/C5c7eK1PMn8/?igsh=c3ozaHQ2MzVjdnFo)
+
+## Credits
+Special thanks to [Adithya](https://x.com/adadithya) for creating the original list that inspired this guide.
 
 ---
 
