@@ -12,12 +12,12 @@
       "url": "/"
     },
     {
-      "title": "About me",
-      "url": "/pages/about"
+      "title": "Photos",
+      "url": "/pages/photos"
     },
     {
-      "title": "Contact me",
-      "url": "/pages/contacts"
+      "title": "About me",
+      "url": "/pages/about"
     }
   ],
   "author": {
