@@ -126,3 +126,7 @@ description: "A comprehensive guide to the best food spots in Kozhikode (Calicut
 
 *   [Discussion on r/Kerala](https://www.reddit.com/r/Kerala/comments/x8p3xq/top_food_spots_in_kozhikode/)
 *   [Top Veg spots in Kozhikode](https://www.reddit.com/r/kozhikode/comments/1cb5avf/what_are_your_top_spots_for_veg_food/)
+
+---
+
+*First released: 11 September 2022 | Last updated: 2 May 2024*

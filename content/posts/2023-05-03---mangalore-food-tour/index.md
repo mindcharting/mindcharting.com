@@ -82,4 +82,6 @@ description: "A curated guide to the best food spots in Mangalore, from seafood 
 
 ---
 
+*First released: 30 April 2023 | Last updated: 3 May 2023*
+
 [Email the author](mailto:gautham@mindcharting.com)
