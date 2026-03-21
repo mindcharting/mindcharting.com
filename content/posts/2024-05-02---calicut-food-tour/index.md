@@ -118,8 +118,6 @@ description: "A comprehensive guide to the best food spots in Kozhikode (Calicut
 *   mangaav pathiri been fry place with no name
 *   Lot of new places coming up near South Beach
 
-To add more places: https://wa.me/9400474785
-
 #### Related Food Tours
 
 *   [Mangalore Food Tour 🍤](https://mindcharting.com/posts/mangalore-food-tour)
