@@ -130,3 +130,5 @@ description: "A comprehensive guide to the best food spots in Kozhikode (Calicut
 ---
 
 *First released: 11 September 2022 | Last updated: 2 May 2024*
+
+Want to add to this guide or share details? Email the author: [gautham@mindcharting.com](mailto:gautham@mindcharting.com)
