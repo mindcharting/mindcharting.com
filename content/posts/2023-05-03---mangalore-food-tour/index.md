@@ -14,8 +14,6 @@ tags:
 description: "A curated guide to the best food spots in Mangalore, from seafood to desserts and everything in between."
 ---
 
-# Mangalore Food Tour
-
 ## Froth on Top (Lunch/Dinner)
 1. Mashed potatoes (not on the menu, but just ask them; it's insanely tasty. I can't explain it, they've just managed to work miracles with the darn thing)
 2. Chicken nuggets with tartar sauce
@@ -84,7 +82,5 @@ description: "A curated guide to the best food spots in Mangalore, from seafood 
 Special thanks to [Adithya](https://x.com/adadithya) for creating the original list that inspired this guide.
 
 ---
-
-*First released: 30 April 2023 | Last updated: 3 May 2023*
 
 Want to add to this guide or share details? Email me: [gautham@mindcharting.com](mailto:gautham@mindcharting.com)

@@ -14,8 +14,6 @@ tags:
 description: "A comprehensive guide to the best food spots in Kozhikode (Calicut), covering biryanis, main courses, snacks, desserts, and fine dining."
 ---
 
-# Calicut Food Tour
-
 ### Best Biriyani (very personal opinion)
 
 *   Beef Biriyani from Kuttichira Biriyani Centre (KBC)
