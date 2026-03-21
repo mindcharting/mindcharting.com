@@ -4,6 +4,6 @@ template: "page"
 socialImage: "./image.jpg"
 ---
 
-Best way to reach me is to [email me](mailto:gauthamail@gmail.com)
+Drop me a line: gautham@mindcharting.com or [Twitter DM](https://twitter.com/mindcharting)
 
 

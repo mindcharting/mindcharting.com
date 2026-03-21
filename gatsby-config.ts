@@ -67,7 +67,7 @@ export default {
                 allMarkdownRemark(
                   limit: 1000,
                   sort: { frontmatter: { date: DESC } },
-                  filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+                  filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true }, unlisted: { ne: true } } }
                 ) {
                   edges {
                     node {

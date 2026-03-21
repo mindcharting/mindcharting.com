@@ -51,6 +51,7 @@ export const query = graphql`
           category: { eq: $group }
           template: { eq: "post" }
           draft: { ne: true }
+          unlisted: { ne: true }
         }
       }
       sort: { frontmatter: { date: DESC } }

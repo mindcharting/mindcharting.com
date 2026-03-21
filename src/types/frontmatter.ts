@@ -4,6 +4,8 @@ interface Frontmatter {
   slug?: string;
   category: string;
   template: string;
+  draft?: boolean;
+  unlisted?: boolean;
   description?: string;
   tags?: Array<string>;
   socialImage?: { publicURL: string };
