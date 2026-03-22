@@ -11,7 +11,9 @@ description: "On the difference between consuming peer-reviewed knowledge and ac
 socialImage: "./image.jpg"
 ---
 
-I don’t think there’s any point entirely basing our personal opinions on knowledge that has been completely proven, tested, verified and peer-reviewed. You're just a consumer of scientific knowledge then, not a scientific explorer.
+![Scientific Explorer vs. Scientific Consumer](./image.jpg)
+
+I don't think there's any point entirely basing our personal opinions on knowledge that has been completely proven, tested, verified and peer-reviewed. You're just a consumer of scientific knowledge then, not a scientific explorer.
 
 You’re not making brave new assumptions about the world you live in, using faculties like feelings, emotions, intuition, keen observation, curiosity, deductive logic, mental modelling, common sense etc.
 

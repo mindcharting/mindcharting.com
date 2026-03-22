@@ -10,7 +10,10 @@ tags:
 description: "Reflections on how early exposure to internet culture provides a unique vantage point for seeing mega-trends that shape our future."
 socialImage: "./image.jpg"
 ---
-The future is already here, it’s just not evenly distributed yet. When I read this [tweet by Tiago Forte](https://twitter.com/fortelabs/status/1383278931713789955), I coudn't help but write this post.
+
+![The Future is Already Here](./image.jpg)
+
+The future is already here, it's just not evenly distributed yet. When I read this [tweet by Tiago Forte](https://twitter.com/fortelabs/status/1383278931713789955), I coudn't help but write this post.
 
 Read it as : Some folks got lucky, early in thier childhood and got sucked into the whirlpool of internet culture. They are able to see how the future looks like very clearly. Or at least what the 3/4 likely pathways are. Simply because it's prototyped right in front of their eyes, in the town-squares of the Internet.
 
