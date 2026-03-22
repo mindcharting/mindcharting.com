@@ -21,7 +21,7 @@ template: "page"
 }
 </style>
 
-A collection of moments captured through my lens.
+Frames of Reality I can't help but capture and write about.
 
 <div class="photo-gallery">
 
@@ -40,5 +40,9 @@ A collection of moments captured through my lens.
 <h3>there are worlds out there</h3>
 <p>Gokarna | July 2018</p>
 <img src="/photos/gokarna.jpg" alt="there are worlds out there"  />
+
+---
+
+See more on [Instagram](https://www.instagram.com/mindcharting/)
 
 </div>
