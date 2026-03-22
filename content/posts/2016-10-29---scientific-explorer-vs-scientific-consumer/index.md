@@ -7,7 +7,7 @@ slug: "/posts/scientific-explorer-vs-scientific-consumer"
 category: "Opinion"
 tags:
   - "Science"
-description: ""
+description: "On the difference between consuming peer-reviewed knowledge and actively exploring new premises through intuition, observation, and experimentation."
 socialImage: "./image.jpg"
 ---
 

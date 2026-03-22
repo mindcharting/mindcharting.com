@@ -7,7 +7,7 @@ slug: "/posts/the-record-in-my-head"
 category: "Music"
 tags:
   - "Music"
-description: ""
+description: "A Malayalam essay about the beautiful torment of having Jagjit Singh's music stuck in your head all day."
 socialImage: "./image.jpg"
 ---
 

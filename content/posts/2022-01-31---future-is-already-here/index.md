@@ -7,7 +7,7 @@ slug: "/posts/future-is-already-here/"
 category: "Personal"
 tags:
   - "Tech"
-description: ""
+description: "Reflections on how early exposure to internet culture provides a unique vantage point for seeing mega-trends that shape our future."
 socialImage: "./image.jpg"
 ---
 The future is already here, it’s just not evenly distributed yet. When I read this [tweet by Tiago Forte](https://twitter.com/fortelabs/status/1383278931713789955), I coudn't help but write this post.

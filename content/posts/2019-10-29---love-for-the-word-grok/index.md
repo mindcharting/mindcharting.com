@@ -8,7 +8,7 @@ category: "Personal"
 tags:
   - "Language"
 
-description: ""
+description: "How I fell in love with Heinlein's Martian word 'grok' and discovered its surprising connection to Malayalam."
 socialImage: "./image.jpg"
 ---
 

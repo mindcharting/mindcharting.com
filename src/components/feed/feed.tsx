@@ -18,19 +18,14 @@ const Feed: FC<FeedProps> = ({ edges }) => (
       const month = String(date.getMonth() + 1).padStart(2, '0');
 
       return (
-        <div className={styles.item} key={edge.node.fields.slug} style={{ display: 'flex', gap: '1rem', alignItems: 'baseline', marginBottom: '0.75rem' }}>
-          <time
-            className={styles.time}
-            dateTime={date.toISOString()}
-            style={{ color: '#999', fontSize: '0.95rem', minWidth: '85px', fontVariantNumeric: 'tabular-nums' }}
-          >
+        <div className={styles.item} key={edge.node.fields.slug}>
+          <time className={styles.time} dateTime={date.toISOString()}>
             {year} · {month}
           </time>
-          <h2 className={styles.title} style={{ margin: 0, fontSize: '1rem', fontWeight: 'normal' }}>
+          <h2 className={styles.title}>
             <Link
               className={styles.link}
               to={edge.node.frontmatter?.slug || edge.node.fields.slug}
-              style={{ textDecoration: 'underline' }}
             >
               {edge.node.frontmatter.title}
             </Link>

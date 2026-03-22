@@ -3,66 +3,31 @@
 
 .feed {
   .item {
-    @include mixins.margin-bottom(1.25);
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+    margin-bottom: 0.75rem;
 
-    &:last-child {
-      @include mixins.margin-bottom(0.5);
+    .time {
+      color: #999;
+      font-size: 0.95rem;
+      min-width: 85px;
+      font-variant-numeric: tabular-nums;
     }
 
     .title {
-      font-size: variables.$typography-base-font-size * 1.6875;
-      @include mixins.line-height(1.5);
-      @include mixins.margin-top(0);
-      @include mixins.margin-bottom(0.5);
+      margin: 0;
+      font-size: 1rem;
+      font-weight: normal;
 
       .link {
+        text-decoration: underline;
         color: hsl(var(--color-foreground));
 
         &:hover,
         &:focus {
-          border-bottom: 1px solid hsl(var(--color-foreground));
-          color: hsl(var(--color-foreground));
+          opacity: 0.7;
         }
-      }
-    }
-
-    .description {
-      color: hsl(var(--color-muted-foreground));
-      font-size: variables.$typography-base-font-size;
-      @include mixins.line-height(1);
-      @include mixins.margin-bottom(0.75);
-    }
-
-    .meta {
-      .time {
-        color: hsl(var(--color-foreground));
-        font-size: variables.$typography-small-font-size;
-        font-weight: 600;
-        text-transform: uppercase;
-      }
-
-      .divider {
-        @include mixins.margin(0, 0.5);
-      }
-
-      .category {
-        .link {
-          font-weight: 600;
-          text-transform: uppercase;
-          color: hsl(var(--color-primary));
-          font-size: variables.$typography-small-font-size;
-        }
-      }
-    }
-
-    .more {
-      color: hsl(var(--color-foreground));
-      font-size: variables.$typography-base-font-size;
-
-      &:hover,
-      &:focus {
-        border-bottom: 1px solid hsl(var(--color-primary));
-        color: hsl(var(--color-primary));
       }
     }
   }
