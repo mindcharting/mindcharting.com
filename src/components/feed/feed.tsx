@@ -12,47 +12,32 @@ type FeedProps = {
 
 const Feed: FC<FeedProps> = ({ edges }) => (
   <div className={styles.feed}>
-    {edges.map((edge) => (
-      <div className={styles.item} key={edge.node.fields.slug}>
-        <div className={styles.meta}>
+    {edges.map((edge) => {
+      const date = new Date(edge.node.frontmatter.date);
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+
+      return (
+        <div className={styles.item} key={edge.node.fields.slug} style={{ display: 'flex', gap: '1rem', alignItems: 'baseline', marginBottom: '0.75rem' }}>
           <time
             className={styles.time}
-            dateTime={new Date(edge.node.frontmatter.date).toLocaleDateString(
-              "en-US",
-              { year: "numeric", month: "long", day: "numeric" },
-            )}
+            dateTime={date.toISOString()}
+            style={{ color: '#999', fontSize: '0.95rem', minWidth: '85px', fontVariantNumeric: 'tabular-nums' }}
           >
-            {new Date(edge.node.frontmatter.date).toLocaleDateString("en-US", {
-              year: "numeric",
-              month: "long",
-            })}
+            {year} · {month}
           </time>
-          <span className={styles.divider} />
-          <span className={styles.category}>
-            <Link to={edge.node.fields.categorySlug} className={styles.link}>
-              {edge.node.frontmatter.category}
+          <h2 className={styles.title} style={{ margin: 0, fontSize: '1rem', fontWeight: 'normal' }}>
+            <Link
+              className={styles.link}
+              to={edge.node.frontmatter?.slug || edge.node.fields.slug}
+              style={{ textDecoration: 'underline' }}
+            >
+              {edge.node.frontmatter.title}
             </Link>
-          </span>
+          </h2>
         </div>
-        <h2 className={styles.title}>
-          <Link
-            className={styles.link}
-            to={edge.node.frontmatter?.slug || edge.node.fields.slug}
-          >
-            {edge.node.frontmatter.title}
-          </Link>
-        </h2>
-        <p className={styles.description}>
-          {edge.node.frontmatter.description}
-        </p>
-        <Link
-          className={styles.more}
-          to={edge.node.frontmatter?.slug || edge.node.fields.slug}
-        >
-          Read
-        </Link>
-      </div>
-    ))}
+      );
+    })}
   </div>
 );
 

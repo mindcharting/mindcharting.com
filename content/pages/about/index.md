@@ -15,14 +15,13 @@ a:hover {
 }
 </style>
 
-Very reluctant, but puppet nevertheless. Severing one string at a time, since 1987.
+Reluctant puppet. Severing one string at a time, since 1987.
 
-Maker first. I love making beautiful things, especially things that didn't exist in this world before I was born.
+Maker first. I love creating things that had no reason to exist until I made them.
 
 ### What I'm doing now
-To make $, I run a software company focused on the US market.
 
-With the time I buy with that money, I teach. I love learning and teaching. I co-run an [Education studio](https://theseconddesign.com/) for that purpose.
+I run a couple of [small companies](https://growthtodo.com/projects/). With what they earn me, I buy time to teach. I co-run an [Education studio](https://theseconddesign.com/).
 
 ### Get in touch
 Drop me a line: gautham@mindcharting.com or [Twitter DM](https://twitter.com/mindcharting)

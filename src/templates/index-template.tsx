@@ -7,7 +7,6 @@ import { Meta } from "@/components/meta";
 import { Page } from "@/components/page";
 import { Layout } from "@/components/layout";
 import { Sidebar } from "@/components/sidebar";
-import { Pagination } from "@/components/pagination";
 import { useSiteMetadata } from "@/hooks/use-site-metadata";
 import type { AllMarkdownRemark } from "@/types/all-markdown-remark";
 import type { PageContext } from "@/types/page-context";
@@ -19,10 +18,7 @@ interface IndexTemplateProps {
   pageContext: PageContext;
 }
 
-const IndexTemplate: FC<IndexTemplateProps> = ({ data, pageContext }) => {
-  const { pagination } = pageContext;
-  const { hasNextPage, hasPrevPage, prevPagePath, nextPagePath } = pagination;
-
+const IndexTemplate: FC<IndexTemplateProps> = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
 
   return (
@@ -30,12 +26,6 @@ const IndexTemplate: FC<IndexTemplateProps> = ({ data, pageContext }) => {
       <Sidebar isHome />
       <Page>
         <Feed edges={edges} />
-        <Pagination
-          prevPagePath={prevPagePath}
-          nextPagePath={nextPagePath}
-          hasPrevPage={hasPrevPage}
-          hasNextPage={hasNextPage}
-        />
       </Page>
     </Layout>
   );

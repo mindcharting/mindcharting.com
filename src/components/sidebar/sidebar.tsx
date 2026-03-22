@@ -5,7 +5,6 @@ import { useSiteMetadata } from "@/hooks/use-site-metadata";
 import { SidebarMenu } from "@/components/sidebar-menu";
 import { SidebarAuthor } from "@/components/sidebar-author";
 import { SidebarContacts } from "@/components/sidebar-contacts";
-import { SidebarCopyright } from "@/components/sidebar-copyright";
 
 import * as styles from "./sidebar.module.scss";
 
@@ -14,7 +13,7 @@ type SidebarProps = {
 };
 
 const Sidebar: FC<SidebarProps> = ({ isHome }) => {
-  const { author, copyright, menu } = useSiteMetadata();
+  const { author, menu } = useSiteMetadata();
 
   return (
     <div className={styles.sidebar}>
@@ -22,7 +21,6 @@ const Sidebar: FC<SidebarProps> = ({ isHome }) => {
         <SidebarAuthor author={author} isHome={isHome} />
         <SidebarMenu menu={menu} />
         <SidebarContacts contacts={author.contacts} />
-        <SidebarCopyright copyright={copyright} />
       </div>
     </div>
   );
