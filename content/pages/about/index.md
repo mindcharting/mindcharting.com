@@ -4,13 +4,15 @@ template: "page"
 socialImage: "./image.jpg"
 ---
 
+<div class="about-content">
+
 <style>
-a {
+.about-content a {
   text-decoration: underline !important;
   text-decoration-color: currentColor !important;
 }
 
-a:hover {
+.about-content a:hover {
   opacity: 0.7;
 }
 </style>
@@ -31,3 +33,5 @@ Drop me a line: gautham@mindcharting.com or [Twitter DM](https://twitter.com/min
 ### That's me back in 2017, in Bhutan
 
 ![Bhutan](./image.jpg)
+
+</div>
