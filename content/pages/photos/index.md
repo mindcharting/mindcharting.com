@@ -25,20 +25,20 @@ A collection of moments captured through my lens.
 
 <div class="photo-gallery">
 
-<h3>trees with personalities</h3>
-<p>Gaya Estate, Munnar | October 2023</p>
-<img src="/photos/gaya-estate.jpg" alt="trees with personalities"  />
-
-<h3>there are worlds out there</h3>
-<p>Gokarna | July 2018</p>
-<img src="/photos/gokarna.jpg" alt="there are worlds out there"  />
-
 <h3>sacred geometry</h3>
 <p>Kozhikulangara Temple, Chavakkad | January 2024</p>
 <img src="/photos/kozhikulangara-temple.jpg" alt="sacred geometry"  />
 
+<h3>trees with personalities</h3>
+<p>Gaya Estate, Munnar | October 2023</p>
+<img src="/photos/gaya-estate.jpg" alt="trees with personalities"  />
+
 <h3>Lords of Chill</h3>
 <p>Mestripalaya Lake, Bangalore | June 2021</p>
 <img src="/photos/lords-of-chill.jpg" alt="Lords of Chill"  />
+
+<h3>there are worlds out there</h3>
+<p>Gokarna | July 2018</p>
+<img src="/photos/gokarna.jpg" alt="there are worlds out there"  />
 
 </div>
