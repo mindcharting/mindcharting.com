@@ -79,7 +79,7 @@ description: "A curated guide to the best food spots in Mangalore, from seafood 
 - [Best Sea Food in India](https://www.instagram.com/reel/C5c7eK1PMn8/?igsh=c3ozaHQ2MzVjdnFo)
 
 ## Credits
-Special thanks to [Adithya](https://x.com/adadithya) for creating the original list that inspired this guide.
+This list was created by [Adithya](https://x.com/adadithya).
 
 ---
 
