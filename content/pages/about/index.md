@@ -23,7 +23,7 @@ Maker first. I love creating things that had no reason to exist until I made the
 
 ### What I'm doing now
 
-I run a couple of [small companies](https://growthtodo.com/projects/). With what they earn me, I buy time to teach. I co-run an [Education studio](https://theseconddesign.com/).
+I run a couple of [small companies](https://growthtodo.com/projects/), and in my free time I teach through the [education studio](https://theseconddesign.com/) I co-run.
 
 ### Get in touch
 Drop me a line: gautham@mindcharting.com or [Twitter DM](https://twitter.com/mindcharting)
