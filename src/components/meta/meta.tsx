@@ -9,6 +9,7 @@ interface MetaProps {
 
 const Meta: FC<MetaProps> = ({ description, title, image, url }) => (
   <>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="twitter:card" content="summary_large_image" />
