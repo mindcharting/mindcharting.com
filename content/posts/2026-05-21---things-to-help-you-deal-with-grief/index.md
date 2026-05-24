@@ -51,11 +51,7 @@ For most people, the ball never really goes away. It might hit less and less, an
 
 *"The ball was really big today. It wouldn't lay off the button. I hope it gets smaller soon."*
 
-**Source:**
-
-<div style="max-width: 320px;">
-<blockquote class="twitter-tweet" data-conversation="none"><a href="https://twitter.com/LaurenHerschel/status/946887540732149760"></a></blockquote>
-</div>
+[Source: Lauren Herschel on Twitter](https://twitter.com/LaurenHerschel/status/946887540732149760)
 
 ---
 
