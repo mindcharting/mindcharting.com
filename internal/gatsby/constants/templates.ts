@@ -9,6 +9,7 @@ const templates = Object.freeze({
   pageTemplate: path.resolve("./src/templates/page-template.tsx"),
   postTemplate: path.resolve("./src/templates/post-template.tsx"),
   tagTemplate: path.resolve("./src/templates/tag-template.tsx"),
+  unlistedTemplate: path.resolve("./src/templates/unlisted-template.tsx"),
 });
 
 export { templates };
