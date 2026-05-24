@@ -2,7 +2,8 @@ import React, { type FC } from "react";
 
 import { graphql } from "gatsby";
 
-import { Feed } from "@/components/feed";
+import { Link } from "gatsby";
+
 import { Meta } from "@/components/meta";
 import { Page } from "@/components/page";
 import { Layout } from "@/components/layout";
@@ -23,7 +24,15 @@ const UnlistedTemplate: FC<UnlistedTemplateProps> = ({ data }) => {
     <Layout>
       <Sidebar />
       <Page title="Unlisted">
-        <Feed edges={edges} />
+        <ul>
+          {edges.map((edge) => (
+            <li key={edge.node.fields.slug}>
+              <Link to={edge.node.frontmatter?.slug || edge.node.fields.slug}>
+                {edge.node.frontmatter.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </Page>
     </Layout>
   );
