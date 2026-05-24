@@ -14,7 +14,7 @@ tags:
 description: "A curated guide to the best food spots in Mangalore, from seafood to desserts and everything in between."
 ---
 
-*Credits: Adithya*
+*Credits: [Adithya](https://x.com/adadithya)*
 
 ## Froth on Top (Lunch/Dinner)
 1. Mashed potatoes (not on the menu, but just ask them; it's insanely tasty. I can't explain it, they've just managed to work miracles with the darn thing)
