@@ -18,6 +18,10 @@ template: "page"
   max-width: 900px;
   margin: 1rem 0 3rem 0;
   border-radius: 4px;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
 }
 </style>
 
