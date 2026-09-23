@@ -10,6 +10,7 @@ tags:
   - "Social Media"
   - "Attention"
 description: "The infinite scroll on YouTube, Instagram, and TikTok is the first time in history we've had regular, on-demand contact with true infinity. Our brains don't know what to do with it."
+socialImage: "./kids-on-swings-phones.png"
 ---
 
 Back in the day, it was only when we were lying down and looking at the night sky that we experienced something that resembled infinity, in some sense. There was a certain infinite-like vastness to the number of stars we saw in the massive expanse of the night sky. That was as far as we could experience infinity in person, in the physical domain. Occasionally, some humans could go to the beach or observe the sea from a cliff, which would give us a sense of largesse. In our minds, we could always imagine far grander infinities, but there was no way to truly experience it in the physical domain.
