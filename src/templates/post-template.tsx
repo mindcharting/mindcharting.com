@@ -7,6 +7,7 @@ import { Meta } from "@/components/meta";
 import { Post } from "@/components/post";
 import { Layout } from "@/components/layout";
 import { useSiteMetadata } from "@/hooks/use-site-metadata";
+import { getFirstImageSrc } from "@/utils/get-first-image-src";
 
 interface PostTemplateProps {
   data: {
@@ -48,6 +49,7 @@ export const Head: FC<PostTemplateProps & { location: { pathname: string } }> = 
   const { title, description, url } = useSiteMetadata();
 
   const {
+    html,
     frontmatter: {
       title: postTitle,
       description: postDescription = description || "",
@@ -55,7 +57,8 @@ export const Head: FC<PostTemplateProps & { location: { pathname: string } }> = 
     },
   } = data.markdownRemark;
 
-  const image = socialImage?.publicURL && url.concat(socialImage?.publicURL);
+  const imagePath = socialImage?.publicURL || getFirstImageSrc(html);
+  const image = imagePath && url.concat(imagePath);
 
   return (
     <Meta
