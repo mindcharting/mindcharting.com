@@ -19,7 +19,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <div className={styles.layout}>
       {children}
-      <footer style={{ textAlign: 'center', padding: '2rem 1rem', color: '#999', fontSize: '0.85rem', marginTop: '3rem' }}>
+      <footer className={styles.footer}>
         © {currentYear} MindCharting.com. All rights reserved.
       </footer>
     </div>

@@ -7,3 +7,12 @@
   max-width: variables.$layout-width;
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
+
+.footer {
+  grid-column: span 12;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem 1rem;
+  color: hsl(var(--color-muted-foreground));
+  font-size: variables.$typography-small-font-size;
+}
