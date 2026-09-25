@@ -22,3 +22,5 @@ I feel that, ironically, that has changed in the worst manner possible. The infi
 It's like we can have full contact with true infinity on a regular basis, personalised to our preferences. I often wonder about the implications of this. What does it do to the human mind? What will it do to us as a civilization? What are we going to witness in this age of AI, where generative content is possible? We now have a whole new paradigm of content creation. What happens then?
 
 When I was a child and reading a lot of sci-fi novels, I imagined we'd experience infinity aboard spaceships that could go at immensely fast speeds and traverse the solar system and beyond. That was the exploration of infinity I had in mind. Little did I know that this is where we'd end up.
+
+My friend Anushree wrote a beautiful response to this — [go read it](https://nosuperwoman.substack.com/p/addicted-to-infinity-blind-to-it). Her point: the night sky humbles you and lets you go. The scroll just wants to swallow you whole.
